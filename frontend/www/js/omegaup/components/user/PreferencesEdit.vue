@@ -26,7 +26,9 @@
         data-preferred-language
         class="custom-select"
       >
-        <option value="">{{ T.userEditPreferredProgrammingLanguagePlaceholder }}</option>
+        <option value="">
+          {{ T.userEditPreferredProgrammingLanguagePlaceholder }}
+        </option>
         <option
           v-for="[extension, name] in Object.entries(programmingLanguages)"
           :key="extension"
